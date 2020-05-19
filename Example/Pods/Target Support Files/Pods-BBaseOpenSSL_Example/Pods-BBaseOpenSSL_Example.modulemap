@@ -1,0 +1,6 @@
+framework module Pods_BBaseOpenSSL_Example {
+  umbrella header "Pods-BBaseOpenSSL_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,8 @@
 //
 
 #import "BBASEViewController.h"
+#import <openssl/pem.h>
+#import <openssl/rsa.h>
 
 @interface BBASEViewController ()
 

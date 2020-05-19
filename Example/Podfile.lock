@@ -1,0 +1,16 @@
+PODS:
+  - BBaseOpenSSL (0.1.0)
+
+DEPENDENCIES:
+  - BBaseOpenSSL (from `../`)
+
+EXTERNAL SOURCES:
+  BBaseOpenSSL:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BBaseOpenSSL: 4c9a5953437d9167afe1af257a7f622a752849d7
+
+PODFILE CHECKSUM: e681fc283c5e1fa6bd4e4d1cc8a03de375c4d7aa
+
+COCOAPODS: 1.8.4

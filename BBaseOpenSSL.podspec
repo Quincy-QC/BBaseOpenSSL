@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/UntilYou-QC/BBaseOpenSSL'
+  s.homepage         = 'https://github.com/Quincy-QC/BBaseOpenSSL'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'UntilYou-QC' => 'chong.qiu@cootek.cn' }
-  s.source           = { :git => 'https://github.com/UntilYou-QC/BBaseOpenSSL.git', :tag => s.version.to_s }
+  s.author           = { 'Quincy-QC' => '578184833@qq.com' }
+  s.source           = { :git => 'https://github.com/Quincy-QC/BBaseOpenSSL.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'BBaseOpenSSL/Classes/**/*'
+  s.vendored_frameworks = 'BBaseOpenSSL/Framework/openssl.framework'
   
   # s.resource_bundles = {
   #   'BBaseOpenSSL' => ['BBaseOpenSSL/Assets/*.png']
