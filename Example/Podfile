@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BBaseOpenSSL_Example' do
+  pod 'BBaseOpenSSL', :path => '../'
+
+  target 'BBaseOpenSSL_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
